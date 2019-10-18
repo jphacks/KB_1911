@@ -1,14 +1,14 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "openchat-dev-20191017215949-authRole",
-            "UnauthRoleArn": "arn:aws:iam::334328925511:role/openchat-dev-20191017215949-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::334328925511:role/openchat-dev-20191017215949-authRole",
+            "AuthRoleName": "openchat-dev-20191018203231-authRole",
+            "UnauthRoleArn": "arn:aws:iam::334328925511:role/openchat-dev-20191018203231-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::334328925511:role/openchat-dev-20191018203231-authRole",
             "Region": "ap-northeast-1",
-            "DeploymentBucketName": "openchat-dev-20191017215949-deployment",
-            "UnauthRoleName": "openchat-dev-20191017215949-unauthRole",
-            "StackName": "openchat-dev-20191017215949",
-            "StackId": "arn:aws:cloudformation:ap-northeast-1:334328925511:stack/openchat-dev-20191017215949/05c40850-f0de-11e9-8a25-0e83df3f8cd0"
+            "DeploymentBucketName": "openchat-dev-20191018203231-deployment",
+            "UnauthRoleName": "openchat-dev-20191018203231-unauthRole",
+            "StackName": "openchat-dev-20191018203231",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:334328925511:stack/openchat-dev-20191018203231/fe0949f0-f19a-11e9-9504-0ac3b391d020"
         }
     }
 }
