@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27ddc9a-f9a6-45fe-aa7c-a9103adcecda" name="Default Changelist" comment="Merge branch 'master' of https://github.com/jphacks/KB_1911&#10;&#10;# Conflicts:&#10;#&#9;README.md">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -82,7 +78,7 @@
       <workItem from="1571316684780" duration="642000" />
       <workItem from="1571317348007" duration="45000" />
       <workItem from="1571317413878" duration="2876000" />
-      <workItem from="1571323940868" duration="3512000" />
+      <workItem from="1571323940868" duration="4678000" />
     </task>
     <task id="LOCAL-00001" summary="created project base.">
       <created>1571393879443</created>
