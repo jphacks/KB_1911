@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# サンプル（プロダクト名）
 
-## Available Scripts
+[![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
 
-In the project directory, you can run:
+## 製品概要
+### X Tech（X → 今回皆さんが選定した好きな言葉に書き換えてください）
 
-### `npm start`
+### 背景（製品開発のきっかけ、課題等）
+ここに
+- こんかいのプロダクトの開発に至った背景
+- 着目した顧客・顧客の課題・現状
+を記入してください
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 製品説明（具体的な製品の説明）
+こちらに製品の概要・特徴について説明を記載してください。
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 特長
 
-### `npm test`
+#### 1. 特長1
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 2. 特長2
 
-### `npm run build`
+#### 3. 特長3
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 解決出来ること
+この製品を利用することによって最終的に解決できることについて記載をしてください。
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### 今後の展望
+今回は実現できなかったが、今後改善すること、どのように展開していくことが可能かについて記載をしてください。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 開発内容・開発技術
+### 活用した技術
+#### API・データ
+今回スポンサーから提供されたAPI、製品などの外部技術があれば記述をして下さい。
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* 
+* 
+* 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### フレームワーク・ライブラリ・モジュール
+* 
+* 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### デバイス
+* 
+* 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 研究内容・事前開発プロダクト（任意）
+ご自身やチームの研究内容や、事前に持ち込みをしたプロダクトがある場合は、こちらに実績なども含め記載をして下さい。
 
-## Learn More
+* 
+* 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### 独自開発技術（Hack Dayで開発したもの）
+#### 2日間に開発した独自の機能・技術
+* 独自で開発したものの内容をこちらに記載してください
+* 特に力を入れた部分をファイルリンク、またはcommit_idを記載してください（任意）

@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27ddc9a-f9a6-45fe-aa7c-a9103adcecda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.graphqlconfig.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphql/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphql/queries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphql/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphql/subscriptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c27ddc9a-f9a6-45fe-aa7c-a9103adcecda" name="Default Changelist" comment="Merge branch 'master' of https://github.com/jphacks/KB_1911&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +38,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.12.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
@@ -88,8 +82,16 @@
       <workItem from="1571316684780" duration="642000" />
       <workItem from="1571317348007" duration="45000" />
       <workItem from="1571317413878" duration="2876000" />
-      <workItem from="1571323940868" duration="2985000" />
+      <workItem from="1571323940868" duration="3512000" />
     </task>
+    <task id="LOCAL-00001" summary="created project base.">
+      <created>1571393879443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571393879443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="created project base." />
+    <MESSAGE value="Merge branch 'master' of https://github.com/jphacks/KB_1911&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/jphacks/KB_1911&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
   </component>
 </project>
