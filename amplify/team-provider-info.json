@@ -9,6 +9,11 @@
             "UnauthRoleName": "openchat-dev-20191018203231-unauthRole",
             "StackName": "openchat-dev-20191018203231",
             "StackId": "arn:aws:cloudformation:ap-northeast-1:334328925511:stack/openchat-dev-20191018203231/fe0949f0-f19a-11e9-9504-0ac3b391d020"
+        },
+        "categories": {
+            "auth": {
+                "openchat7c429ba8": {}
+            }
         }
     }
 }

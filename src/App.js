@@ -2,22 +2,26 @@ import React from 'react'
 
 import API, {graphqlOperation} from '@aws-amplify/api'
 import PubSub from '@aws-amplify/pubsub';
-import {createPost} from './graphql/mutations'
+import {createMessage} from './graphql/mutations'
 
+import Amplify, {Auth} from 'aws-amplify';
+import awsconfig from './aws-exports';
 import config from './aws-exports'
 // other imports
 import {useEffect, useReducer} from 'react' // using hooks
-import {listPosts} from './graphql/queries'
+import {listMessages} from './graphql/queries'
 // other imports
-import {onCreatePost} from './graphql/subscriptions'
+import {onCreateMessage} from './graphql/subscriptions'
 
-const initialState = {posts: []};
+Amplify.configure(awsconfig);
+
+const initialState = {messages: []};
 const reducer = (state, action) => {
     switch (action.type) {
         case 'QUERY':
-            return {...state, posts: action.posts}
+            return {...state, messages: action.messages}
         case 'SUBSCRIPTION':
-            return {...state, posts: [...state.posts, action.post]}
+            return {...state, messages: [...state.messages, action.message]}
         default:
             return state
     }
@@ -26,9 +30,9 @@ const reducer = (state, action) => {
 API.configure(config)             // Configure Amplify
 PubSub.configure(config);
 
-async function createNewPost() {
-    const post = {owner: "Owner", content: "Content"}
-    await API.graphql(graphqlOperation(createPost, {input: post}))
+async function createNewMessage() {
+    const message = {owner: "Owner", content: "Content"}
+    await API.graphql(graphqlOperation(createMessage, {input: message}))
 }
 
 function App() {
@@ -36,26 +40,26 @@ function App() {
 
     useEffect(() => {
         getData()
-        const subscription = API.graphql(graphqlOperation(onCreatePost)).subscribe({
+        const subscription = API.graphql(graphqlOperation(onCreateMessage)).subscribe({
             next: (eventData) => {
-                const post = eventData.value.data.onCreatePost;
-                dispatch({type: 'SUBSCRIPTION', post})
+                const message = eventData.value.data.onCreateMessage;
+                dispatch({type: 'SUBSCRIPTION', message})
             }
         })
         return () => subscription.unsubscribe()
     }, [])
 
     async function getData() {
-        const postData = await API.graphql(graphqlOperation(listPosts))
-        dispatch({type: 'QUERY', posts: postData.data.listPosts.items});
+        const messageData = await API.graphql(graphqlOperation(listMessages))
+        dispatch({type: 'QUERY', messages: messageData.data.listMessages.items});
     }
 
     return (
         <div>
             <div className="App">
-                <button onClick={createNewPost}>Add Post</button>
+                <button onClick={createNewMessage}>Add Message</button>
             </div>
-            <div>{state.posts.map((post, i) => <p key={post.id}>{post.owner} : {post.content}</p>)}</div>
+            <div>{state.messages.map((message, i) => <p key={message.id}>{message.owner} : {message.content}</p>)}</div>
         </div>
     );
 }

@@ -1,27 +1,78 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createPost = `mutation CreatePost($input: CreatePostInput!) {
-  createPost(input: $input) {
+export const createRoom = `mutation CreateRoom($input: CreateRoomInput!) {
+  createRoom(input: $input) {
     id
-    owner
-    content
+    name
+    messages {
+      items {
+        id
+        content
+        owner
+        mention
+      }
+      nextToken
+    }
   }
 }
 `;
-export const updatePost = `mutation UpdatePost($input: UpdatePostInput!) {
-  updatePost(input: $input) {
+export const updateRoom = `mutation UpdateRoom($input: UpdateRoomInput!) {
+  updateRoom(input: $input) {
     id
-    owner
-    content
+    name
+    messages {
+      items {
+        id
+        content
+        owner
+        mention
+      }
+      nextToken
+    }
   }
 }
 `;
-export const deletePost = `mutation DeletePost($input: DeletePostInput!) {
-  deletePost(input: $input) {
+export const deleteRoom = `mutation DeleteRoom($input: DeleteRoomInput!) {
+  deleteRoom(input: $input) {
     id
-    owner
+    name
+    messages {
+      items {
+        id
+        content
+        owner
+        mention
+      }
+      nextToken
+    }
+  }
+}
+`;
+export const createMessage = `mutation CreateMessage($input: CreateMessageInput!) {
+  createMessage(input: $input) {
+    id
     content
+    owner
+    mention
+  }
+}
+`;
+export const updateMessage = `mutation UpdateMessage($input: UpdateMessageInput!) {
+  updateMessage(input: $input) {
+    id
+    content
+    owner
+    mention
+  }
+}
+`;
+export const deleteMessage = `mutation DeleteMessage($input: DeleteMessageInput!) {
+  deleteMessage(input: $input) {
+    id
+    content
+    owner
+    mention
   }
 }
 `;
