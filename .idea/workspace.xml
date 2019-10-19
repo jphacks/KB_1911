@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27ddc9a-f9a6-45fe-aa7c-a9103adcecda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/amplify/backend/auth/openchat7c429ba8/openchat7c429ba8-cloudformation-template.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/auth/openchat7c429ba8/parameters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.graphqlconfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.graphqlconfig.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/openchat/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/openchat/parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/openchat/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/openchat/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/backend-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/backend-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/team-provider-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/team-provider-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphql/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/mutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphql/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/queries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graphql/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphql/subscriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/subscriptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +82,7 @@
       <workItem from="1571317348007" duration="45000" />
       <workItem from="1571317413878" duration="2876000" />
       <workItem from="1571323940868" duration="7389000" />
-      <workItem from="1571458114321" duration="9621000" />
+      <workItem from="1571458114321" duration="14001000" />
     </task>
     <task id="LOCAL-00001" summary="created project base.">
       <created>1571393879443</created>
@@ -108,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571395642005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="authの追加 モデルの修正">
+      <created>1571469901590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571469901590</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +132,7 @@
     <MESSAGE value="created project base." />
     <MESSAGE value="Merge branch 'master' of https://github.com/jphacks/KB_1911&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
+    <MESSAGE value="authの追加 モデルの修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="authの追加 モデルの修正" />
   </component>
 </project>
