@@ -3,7 +3,7 @@
 [![openchat](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
 
 ## 製品概要
-### Chat X Tech
+### 非常事態 X Tech
 
 ### 背景（製品開発のきっかけ、課題等）
 - 夏休みの始めに来た台風で、フライトの予定がキャンセルされて困っていた留学生がいた。
