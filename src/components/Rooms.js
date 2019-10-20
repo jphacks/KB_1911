@@ -3,8 +3,8 @@ import {Button, List, ListSubheader, ListItem, ListItemText} from '@material-ui/
 import {Link} from 'react-router-dom';
 
 const ROOMS = [
-    {id: "大雪で", createdAt: new Date().toDateString(), name: "sample1"},
-    {id: "Room for cool people 🔥", createdAt: new Date().toDateString(), name: "room2"},
+    {id: 1, createdAt: new Date().toDateString(), name: "xxx便の欠航について"},
+    {id: 2, createdAt: new Date().toDateString(), name: "ooo"},
 ];
 
 export default () => {
