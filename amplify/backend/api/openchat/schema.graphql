@@ -1,14 +1,13 @@
-type Room @model
-  @auth(rules: [{allow: groups, groups: ["Admin"]}]) {
+type Room @model {
   id: ID!
   name: String!
   messages: [Message] @connection
 }
 
-type Message @model
-  @auth(rules: [{allow: owner}]) {
+type Message @model {
   id: ID!
   content: String
   owner: String
+  user: String
   mention: String
 }

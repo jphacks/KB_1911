@@ -10,6 +10,7 @@ export const createRoom = `mutation CreateRoom($input: CreateRoomInput!) {
         id
         content
         owner
+        user
         mention
       }
       nextToken
@@ -26,6 +27,7 @@ export const updateRoom = `mutation UpdateRoom($input: UpdateRoomInput!) {
         id
         content
         owner
+        user
         mention
       }
       nextToken
@@ -42,6 +44,7 @@ export const deleteRoom = `mutation DeleteRoom($input: DeleteRoomInput!) {
         id
         content
         owner
+        user
         mention
       }
       nextToken
@@ -54,6 +57,7 @@ export const createMessage = `mutation CreateMessage($input: CreateMessageInput!
     id
     content
     owner
+    user
     mention
   }
 }
@@ -63,6 +67,7 @@ export const updateMessage = `mutation UpdateMessage($input: UpdateMessageInput!
     id
     content
     owner
+    user
     mention
   }
 }
@@ -72,6 +77,7 @@ export const deleteMessage = `mutation DeleteMessage($input: DeleteMessageInput!
     id
     content
     owner
+    user
     mention
   }
 }

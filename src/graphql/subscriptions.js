@@ -10,6 +10,7 @@ export const onCreateRoom = `subscription OnCreateRoom {
         id
         content
         owner
+        user
         mention
       }
       nextToken
@@ -26,6 +27,7 @@ export const onUpdateRoom = `subscription OnUpdateRoom {
         id
         content
         owner
+        user
         mention
       }
       nextToken
@@ -42,6 +44,7 @@ export const onDeleteRoom = `subscription OnDeleteRoom {
         id
         content
         owner
+        user
         mention
       }
       nextToken
@@ -49,29 +52,32 @@ export const onDeleteRoom = `subscription OnDeleteRoom {
   }
 }
 `;
-export const onCreateMessage = `subscription OnCreateMessage($owner: String!) {
-  onCreateMessage(owner: $owner) {
+export const onCreateMessage = `subscription OnCreateMessage {
+  onCreateMessage {
     id
     content
     owner
+    user
     mention
   }
 }
 `;
-export const onUpdateMessage = `subscription OnUpdateMessage($owner: String!) {
-  onUpdateMessage(owner: $owner) {
+export const onUpdateMessage = `subscription OnUpdateMessage {
+  onUpdateMessage {
     id
     content
     owner
+    user
     mention
   }
 }
 `;
-export const onDeleteMessage = `subscription OnDeleteMessage($owner: String!) {
-  onDeleteMessage(owner: $owner) {
+export const onDeleteMessage = `subscription OnDeleteMessage {
+  onDeleteMessage {
     id
     content
     owner
+    user
     mention
   }
 }

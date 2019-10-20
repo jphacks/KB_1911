@@ -10,6 +10,7 @@ export const getRoom = `query GetRoom($id: ID!) {
         id
         content
         owner
+        user
         mention
       }
       nextToken
@@ -39,6 +40,7 @@ export const getMessage = `query GetMessage($id: ID!) {
     id
     content
     owner
+    user
     mention
   }
 }
@@ -53,6 +55,7 @@ export const listMessages = `query ListMessages(
       id
       content
       owner
+      user
       mention
     }
     nextToken
