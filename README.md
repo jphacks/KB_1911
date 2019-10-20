@@ -56,5 +56,5 @@ eksでkubernetesを使ってみたかったが使いどころがわからなか�
 
 ### 独自開発技術（Hack Dayで開発したもの）
 #### 2日間に開発した独自の機能・技術
-* 技術: AWSとAmplifyとReactとをhello wordから学習した
+* 技術: AWSとAmplifyとReactのチュートリアルを習得した
 * 機能: すべて
