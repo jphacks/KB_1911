@@ -21,10 +21,11 @@ const reducer = (state, action) => {
 
 
 const inputStyle = {
-    margin: "0 8%",
+    margin: "0 25.2%",
     width: "50em",
     bottom: 0,
-    // left: 10,
+    left: 0,
+    right: 0,
     position: "absolute"
 
 }
