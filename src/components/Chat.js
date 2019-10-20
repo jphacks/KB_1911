@@ -5,6 +5,7 @@ import {useEffect, useReducer} from 'react' // using hooks
 import {listMessages} from '../graphql/queries'
 import {onCreateMessage} from '../graphql/subscriptions'
 import UserStore from "../UserStore";
+import {FormControl, Row, Container, Col, ListGroup, InputGroup} from 'react-bootstrap'
 
 const initialState = {messages: []};
 const reducer = (state, action) => {
@@ -17,6 +18,12 @@ const reducer = (state, action) => {
             return state
     }
 };
+
+const inputStyle = {
+    bottom: 0,
+    position: 'fixed',
+
+}
 
 async function createNewMessage() {
     console.log(UserStore.username);
@@ -45,12 +52,32 @@ function Rooms() {
 
     return (
         <div>
-            <div className="App">
-                <button onClick={createNewMessage}>Add Message</button>
-            </div>
-            <div>{state.messages.map((message, i) => <p key={message.id}>{message.user} : {message.content}</p>)}</div>
-            <div>{state.messages.map((message, i) => console.log(message))}</div>
+            <Container className="scrollbar">
+                <Row className="justify-content-md-center">
+                    <Col md="auto">
+                        <ListGroup style={{width: '50rem'}} className="mt-4">
+                            {state.messages.map(
+                                (message, i) =>
+                                    <ListGroup.Item key={message.id}>
+                                        <p>@{message.user}</p>
+                                        {message.content}
+                                    </ListGroup.Item>
+                            )}
+                        </ListGroup>
+                    </Col>
+                </Row>
+                <InputGroup style={inputStyle} className="mb-3">
+                    <FormControl placeholder="message"/>
+                </InputGroup>
+            </Container>
         </div>
+        // <div>
+        //     <div className="App">
+        //         <button onClick={createNewMessage}>Add Message</button>
+        //     </div>
+        //     <div>{state.messages.map((message, i) => <p key={message.id}>{message.user} : {message.content}</p>)}</div>
+        //     <div>{state.messages.map((message, i) => console.log(message))}</div>
+        // </div>
     );
 }
 

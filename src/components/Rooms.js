@@ -3,8 +3,8 @@ import {Button, List, ListSubheader, ListItem, ListItemText} from '@material-ui/
 import {Link} from 'react-router-dom';
 
 const ROOMS = [
-    {id: "大雪で", createdAt: new Date().toDateString()},
-    {id: "Room for cool people 🔥", createdAt: new Date().toDateString()},
+    {id: "大雪で", createdAt: new Date().toDateString(), name: "sample1"},
+    {id: "Room for cool people 🔥", createdAt: new Date().toDateString(), name: "room2"},
 ];
 
 export default () => {
@@ -19,7 +19,7 @@ export default () => {
                         component={Link}
                         to={`/room/${room.id}`}>
                         <ListItemText
-                            primary={room.id}
+                            primary={room.name}
                             secondary={room.createdAt}
                         />
                     </Button>
