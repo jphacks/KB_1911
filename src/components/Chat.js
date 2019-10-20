@@ -22,7 +22,11 @@ const reducer = (state, action) => {
 const inputStyle = {
     bottom: 0,
     position: 'fixed',
-
+}
+const containerStyle = {
+    height: "80vh",
+    overflow: "scroll",
+    overflowX: "auto",
 }
 
 async function createNewMessage() {
@@ -52,7 +56,7 @@ function Rooms() {
 
     return (
         <div>
-            <Container className="scrollbar">
+            <Container style={containerStyle}>
                 <Row className="justify-content-md-center">
                     <Col md="auto">
                         <ListGroup style={{width: '50rem'}} className="mt-4">
