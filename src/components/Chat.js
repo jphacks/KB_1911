@@ -21,19 +21,18 @@ const reducer = (state, action) => {
 
 
 const inputStyle = {
-    margin: "0 25.2%",
-    width: "50em",
+    width: "60%",
+    position: "absolute",
     bottom: 0,
     left: 0,
     right: 0,
-    position: "absolute"
-
-}
+    margin: "auto",
+};
 const containerStyle = {
     height: "80vh",
     overflow: "scroll",
     overflowX: "auto",
-}
+};
 
 
 function Rooms() {
@@ -68,8 +67,8 @@ function Rooms() {
         <div>
             <Container style={containerStyle} className="scrollbar">
                 <Row className="justify-content-md-center">
-                    <Col md="auto">
-                        <ListGroup style={{width: '50rem'}} className="mt-4">
+                    <Col>
+                        <ListGroup className="mt-4">
                             {state.messages.map(
                                 (message, i) =>
                                     <ListGroup.Item key={message.id}>
@@ -86,12 +85,14 @@ function Rooms() {
                 {/*    <Button onClick={createNewMessage}>Send</Button>*/}
                 {/*</div>*/}
             </Container>
-            <InputGroup style={inputStyle} className="mb-3">
-                <FormControl onChange={event => setContent(event.target.value)}></FormControl>
-                <InputGroup.Append>
-                    <Button variant="outline-secondary" onClick={createNewMessage}>Send</Button>
-                </InputGroup.Append>
-            </InputGroup>
+            <div className="full-width">
+                <InputGroup style={inputStyle} className="mb-4">
+                    <FormControl onChange={event => setContent(event.target.value)}/>
+                    <InputGroup.Append>
+                        <Button variant="outline-secondary" onClick={createNewMessage}>Send</Button>
+                    </InputGroup.Append>
+                </InputGroup>
+            </div>
         </div>
 
     );

@@ -38,7 +38,7 @@ class App extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     {/* eslint-disable-next-line react/jsx-no-undef */}
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
+                        <Nav>
                             <Nav.Link href="/list" style={whiteColor}>List</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
